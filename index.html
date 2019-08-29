@@ -66,6 +66,7 @@
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="courseproj">Project</a></li>
 						<li><a href="#" data-nav-section="publication">Publication</a></li>
 						<li><a href="#" data-nav-section="sports">sports</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
@@ -239,9 +240,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 														<div class="progress-wrap">
 															<h3>gem5</h3>
 															<div class="progress">
-															 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="60"
+															 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="70"
 															  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-															    <span>60%</span>
+															    <span>70%</span>
 															  	</div>
 															</div>
 														</div>
@@ -434,6 +435,68 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
+			<section class="colorlib-experience" data-section="courseproj">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">Project in course</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-1">
+					               </div>
+					               <div class="timeline-label">
+					                  <h2>Group-aware Cache Coherence Protocol</h2>
+					                  <h4>Course: 18-742 Computer Architecture & Systems</h4>
+				                  	    <span>
+											<div class="container">
+											  <div class="row">
+											    <div class="col-md-3">
+													Most of the cache coherence protocol only has global state. With G-flag, which indicates the reduced coherence domain, and the modified hierarchial interconnection, we reduce 22% of scalibility cost of cache miss latency in PARSEC-3.0's blackscholes program. This group-aware technique can alleviate the affect of coherence communication overhead by describing the sharing status with more detail. <br>
+													Paper link: <a href="docs/18-742-term-project.pdf"  target="_blank">Download here</a><br>
+													Course representation: <a href="https://docs.google.com/presentation/d/1DxwKH1VNJkCU-mhH8GzbRrPboD36ORgrKHT5whlMDxM/edit?usp=sharing" target="_blank">slides</a>
+											    </div>
+											    <div class="col-md-4">
+													<img width="100%" src="images/gmsi-overview.png" alt="Italian Trulli">
+											    </div>
+											  </div>
+											</div>
+					                  	</span>
+					               </div>
+					            </div>
+					         </article>
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					               </div>
+					               <div class="timeline-label">
+					                  <h2>Triple-DES Optimization on a CPU</h2>
+					                  <h4>Course: 18-645 How to write fast code</h4>
+				                  	    <span>
+											Optimizing a decryption algorithm (triple DES) depending on the parameters of our target processor, Intel Broadwell, including caches access time, size and number of functional unit. With table merging and operation parallelization, this work improves 10% in execution time. (It's still a single-threaded program)<br>
+											Paper link: <a href="docs/18-645-final-report.pdf"  target="_blank">Here</a><br>
+											Course representation: <a href="https://docs.google.com/presentation/d/1WwemTscqNHz-YoyiBuJ5T_GS9HDrcun17JK2UhlMh8w/edit?usp=sharing" target="_blank">6-page slides</a>
+					                  	</span>
+					               </div>
+					            </div>
+					         </article>
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+
 			<section class="colorlib-experience" data-section="publication">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -460,7 +523,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					            </div>
 					         </article>
 					      </div>
-					   </div>				   </div>
+					   </div>
+				   </div>
 				</div>
 			</section>
 
